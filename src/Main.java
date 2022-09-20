@@ -9,5 +9,11 @@ public class Main {
         String surname = scanner.next();
         System.out.println("Enter your age");
         int age = scanner.nextInt();
+        if (age <18) {
+            System.out.println(name + " " + surname + " you can't enter the club");
+        } else {
+            System.out.println(name + " " + surname + " you can enter the club");
+
+        }
     }
 }
